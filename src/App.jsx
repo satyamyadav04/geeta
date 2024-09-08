@@ -4,7 +4,7 @@ import Header from './componantes/Header'
 // import Footer from './componantes/Footer'
 import Home from './componantes/Home'
 // import logIn from './componantes/logIn'
-import Chatbott from './componantes/Chatbott'
+// import Chatbott from './componantes/Chatbott'
 // import Sidebar from './componantes/Main/Sidebar'
 // import Body from './componantes/Main/Body'
 

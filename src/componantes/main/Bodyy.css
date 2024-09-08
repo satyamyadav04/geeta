@@ -6,9 +6,15 @@
     position: relative;
     font-family: "Poppins", sans-serif;
 }
-body{
-    background-color: red;
-}
+ .Full{
+    display: flex;
+   background-color: #4b90ff;
+   /* background-image: url('src\componantes\main\pic.png'); */
+
+ }
+ /* body{
+    background-image:url('src\componantes\main\89552e3d-1fc5-4b2a-afe3-a576a7cfbcc3.jpeg');
+ } */
 .main .nav{
     display:  flex;
     align-items: center;
@@ -46,6 +52,9 @@ body{
     grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
     gap: 15px;
     padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    /* border-color: black; */
 }
 .main .card{
     height: 140px;
@@ -54,6 +63,9 @@ body{
     border-radius: 10px;
     position: relative;
     cursor: pointer;
+    border:solid black;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    /* border-color: black; */
 }
 .main .card img{
     width: 35px;
@@ -63,13 +75,26 @@ body{
     border: 20px;
     bottom: 10px;
     right: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: #4CAF50;
 }
 .main .card p{
     color: #585858;
     font-size: 12px;
+    cursor: pointer;
 }
 .main .card:hover{
-    background-color: #dfe4ea;
+    background-color: #eeb24a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.main.card:focus {
+    background-color: #e8f5e9; 
+    border-color:  black; 
+  }
+.card.clicked {
+    background-color: #4CAF50;
 }
 .main-bottom{
     position: absolute;
@@ -83,12 +108,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    -webkit-text-fill-color: black;
+    
     gap: 20px;
     margin-bottom: 45px;
     padding: 10px 20px;
+    border: 2px solid black;
     border-radius: 50px;
-    background-color: #f0f4f9;
+    background-color:#4b90ff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
 }
+.search-box:hover {
+    border-color: #e65309;
+    border: 4px solid #e65309;
+  }
+  .search-box:focus {
+    background-color: #e8f5e9; 
+    border-color:  #0bda12; 
+  }
+
 .search-box img{
     width: 24px;
     cursor: pointer;
@@ -99,7 +137,7 @@ body{
     border:  none;
     outline: none;
     padding: 5px;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 .search-box div{
@@ -107,4 +145,3 @@ body{
     align-items: center;
     gap: 15px;
 }
- 

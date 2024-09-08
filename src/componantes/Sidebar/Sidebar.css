@@ -3,7 +3,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #f0f4f9;
+    background-color:lightskyblue;
     padding: 25px;
 }
 .Sidebar img{
@@ -12,18 +12,42 @@
 .Sidebar .menu{
     display: block;
     margin-left: 10px;
+
+    border-radius: 8px;
     cursor: pointer;
 }
+.Sidebar:hover {
+    background-color: #4CAF50; 
+    color: white; 
+  }
+  .sidebar.active {
+    background-color: #4CAF50; 
+    color: white; 
+    border: 2px solid #4CAF50; 
+  }  
+  .menu:hover {
+    background-color: rgb(254, 102, 7); 
+    border: 4px solid rgb(254, 102, 7);
+    color: white; 
+  }
+  .menu.active {
+    background-color: rgb(254, 102, 7); 
+    border: 2px solid rgb(254, 102, 7); 
+    color: white;
+  }  
+
+
+  
 .Sidebar .new_chat{
     margin-top: 50px;
     display: inline-flex;
     align-items: center;
     gap: 10px;
     padding: 10px 15px;
-    background-color: #e6eaf1;
+    background-color:  rgb(254, 102, 7);
     border-radius: 50px;
     font-size: 14px;
-    color: gray;
+    color: black;
     cursor: pointer;
 }
 .Sidebar .recent{
@@ -47,7 +71,7 @@
 
 }
 .Sidebar .recent_entry:hover{
-    background-color: #e2e6eb;
+    background-color: #55ef44;
 }
 .Sidebar .bottom{
     display: flex;

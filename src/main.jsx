@@ -1,20 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import './App.jsx'
 import './index.css'
 import Layout from './layout.jsx'
  
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
-import Home from './componantes/Home.jsx'
-import About from './componantes/About.jsx'
-import Contact from './componantes/Contact.jsx'
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+// import Contact from './componantes/Contact.jsx'
 // import Github from './componantes/Github.jsx'
 // import logIn from './componantes/logIn.jsx'
 // import Chatbott from './componantes/Chatbott.jsx'
 // import Body from './componantes/Main/Body.jsx'
 // import Sidebar from './componantes/Main/Sidebar.jsx'
-import Bodyy from './componantes/main/Bodyy.jsx'
-import Sidebar from './componantes/Sidebar/Sidebar.jsx'
+import Bodyy from './pages/Bodyy.jsx'
+import Sidebar from './component/Sidebar.jsx'
 
 
  
@@ -28,10 +28,10 @@ const router = createBrowserRouter([
         path:"",
         element:<Home />
       },
-      {
-        path:"Contact",
-        element:<Contact />
-      },
+      // {
+      //   path:"Contact",
+      //   element:<Contact />
+      // },
       {
         path:"about",
         element:<About />

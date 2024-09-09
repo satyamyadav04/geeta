@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import './Bodyy.css'
+import '../style/Bodyy.css'
 // import Sidebar from '../Sidebar/Sidebar.css'
-import { assets } from '../../assets/assets'
+import { assets } from '../assets/assets'
 
 
 const Bodyy = () => {

@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import Contact from './Contact';
+// import Contact from '../componantes/Contact';
 // import logIn from './logIn';
-import './Header.css'
+import '../style/Header.css'
 // import { document } from 'postcss';
 
 
@@ -16,7 +16,7 @@ export default function Header() {
                     <Link to="/" className="flex items-center">
                         <img
                             // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUs4Adp11oAAENAKCwI7Vk-c42UsRRT-tocQ&s"
-                            src="src\componantes\WhatsApp_Image_2024-09-06_at_12.13.00_748b4230-removebg-preview (1).png"
+                            src="src\assets\WhatsApp_Image_2024-09-06_at_12.13.00_748b4230-removebg-preview (1).png"
                             className="mr-3 h-14"
                             alt="Logo"
                         />
@@ -60,7 +60,7 @@ export default function Header() {
                                     About
                                 </NavLink>
                             </li>
-                            <li>
+                            {/* <li>
                                 <NavLink className="text-white"
                                     to="/Contact"
                                    
@@ -68,7 +68,7 @@ export default function Header() {
                                     Contact Us
                                 </NavLink>
                             </li>
-                            
+                             */}
 
 
                         </ul>

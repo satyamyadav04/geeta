@@ -1,8 +1,8 @@
 
 
-import Header from './componantes/Header'
+import Header from './component/Header'
  
-import Home from './componantes/Home'
+import Home from './pages/Home'
  
 
 
@@ -17,7 +17,7 @@ function App() {
     <>
     
     <Header/>
-    {/* <Footer/> */}
+    
     <Home/>
    
     

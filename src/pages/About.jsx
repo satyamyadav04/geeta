@@ -9,7 +9,7 @@ export default function About() {
                         <img className=" w-[1200px] h-[400px]  rounded-lg bg-cover bg-center "
                             // src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpJTUgd_bVk21G3mhJbcH3mIuRnQwDKIPNmQ&s"
                             // src="src\componantes\gg.webp"
-                            src="src\componantes\geeta.gif"
+                            src="src\assets\geeta.gif"
                             alt="image"
                         />
                     </div>

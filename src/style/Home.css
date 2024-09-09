@@ -3,8 +3,9 @@
     padding: 0;
 }
 Body{
-    background-image: url('src\componantes\Blue and Purple Elegant Sky Stars Desktop Wallpaper.png');
-    background-image: url('');
+    
+  
+    background-image: url("src\assets\photo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;

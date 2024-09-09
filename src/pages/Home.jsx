@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import "./Home.css";
+import "../style/Home.css";
 export default function Home() {
   return (
     <div className="mr-0 w-full ">

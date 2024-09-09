@@ -3,8 +3,9 @@
     padding: 0;
 }
 Body{
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/661/37/264/god-lord-krishna-wallpaper-preview.jpg');
-    /* background-image: url('src\componantes\Blue and Purple Elegant Sky Stars Desktop Wallpaper.png'); */
+    
+  
+    background-image: url("src\componantes\photo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;

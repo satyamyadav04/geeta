@@ -9,12 +9,10 @@
  .Full{
     display: flex;
    background-color: #4b90ff;
-   /* background-image: url('src\componantes\main\pic.png'); */
+   
 
  }
- /* body{
-    background-image:url('src\componantes\main\89552e3d-1fc5-4b2a-afe3-a576a7cfbcc3.jpeg');
- } */
+ 
 .main .nav{
     display:  flex;
     align-items: center;
@@ -54,7 +52,7 @@
     padding: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    /* border-color: black; */
+  
 }
 .main .card{
     height: 140px;
@@ -65,7 +63,7 @@
     cursor: pointer;
     border:solid black;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    /* border-color: black; */
+     
 }
 .main .card img{
     width: 35px;

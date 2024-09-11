@@ -7,12 +7,6 @@ import Layout from './layout.jsx'
 import {RouterProvider, createBrowserRouter} from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
-// import Contact from './componantes/Contact.jsx'
-// import Github from './componantes/Github.jsx'
-// import logIn from './componantes/logIn.jsx'
-// import Chatbott from './componantes/Chatbott.jsx'
-// import Body from './componantes/Main/Body.jsx'
-// import Sidebar from './componantes/Main/Sidebar.jsx'
 import Bodyy from './pages/Bodyy.jsx'
 import Sidebar from './component/Sidebar.jsx'
 
@@ -28,18 +22,12 @@ const router = createBrowserRouter([
         path:"",
         element:<Home />
       },
-      // {
-      //   path:"Contact",
-      //   element:<Contact />
-      // },
+     
       {
         path:"about",
         element:<About />
       },
-      // {
-      //   path:"logIn",
-      //   element:<logIn />
-      // },
+     
        
       {
         path:"Bodyy",

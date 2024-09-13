@@ -21,8 +21,9 @@ export default function Header() {
                         <ul className="  navbar flex flex-col  font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             
                             <li>
-                                <NavLink className="about text-white "
-                                    to="/about"
+                                <NavLink className=" About button inline-flex   text-white items-center px-6 py-3 font-medium bg-orange-700 focus:ring-orange-400 rounded-4xl hover:opacity-75"
+            
+                                   to="/about"
                                     
                                 >
                                     About

@@ -5,11 +5,12 @@
 Body{
     
   
-    background-image: url("src\assets\photo.jpg");
+    background-image: url('https://cdn.pixabay.com/photo/2023/12/01/16/55/ai-generated-8424056_1280.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+   
 }
 .button{
     position: relative;

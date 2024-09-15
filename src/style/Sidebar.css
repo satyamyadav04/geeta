@@ -1,9 +1,10 @@
+
 .Sidebar{
     min-height: 100vh;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color:lightskyblue;
+    background-color:rgb(66, 64, 64);
     padding: 25px;
 }
 .Sidebar img{
@@ -17,22 +18,24 @@
     cursor: pointer;
 }
 .Sidebar:hover {
-    background-color: #4CAF50; 
+    /* background-color: #b1f2b3;  */
+    /* background-color:  rgb(166, 246, 248); */
     color: white; 
   }
   .sidebar.active {
-    background-color: #4CAF50; 
+    background-color: #b5f6b7; 
     color: white; 
     border: 2px solid #4CAF50; 
   }  
   .menu:hover {
-    background-color: rgb(254, 102, 7); 
-    border: 4px solid rgb(254, 102, 7);
+    background-color: black; 
+    border: 4px solid black;
     color: white; 
   }
   .menu.active {
-    background-color: rgb(254, 102, 7); 
-    border: 2px solid rgb(254, 102, 7); 
+    background-color: rgb(247, 209, 185); 
+    /* border: 2px solid rgb(254, 102, 7);  */
+    
     color: white;
   }  
 
@@ -44,11 +47,14 @@
     align-items: center;
     gap: 10px;
     padding: 10px 15px;
-    background-color:  rgb(254, 102, 7);
+    background-color:  rgb(166, 246, 248);
     border-radius: 50px;
     font-size: 14px;
     color: black;
     cursor: pointer;
+}
+.Sidebar .new_chat:hover{
+    background-color:  rgb(166, 246, 248);
 }
 .Sidebar .recent{
     display: flex;
@@ -63,15 +69,18 @@
     display: flex;
     align-items: start;
     gap: 10px;
-    padding: 10px;
+    padding: 7px;
     padding-right: 40px;
     cursor: pointer;
-    color: #282822;
+    color: white;
     border-radius: 50px;
+    /* background-color:  rgb(75, 205, 207); */
 
 }
 .Sidebar .recent_entry:hover{
-    background-color: #55ef44;
+    /* background-color: #55ef44; */
+    background-color:  black;
+
 }
 .Sidebar .bottom{
     display: flex;
@@ -80,5 +89,5 @@
 }
 .Sidebar .bottom_item{
     padding-right: 10px;
-    cursor: pointer;
+    cursor: pointer;
 }

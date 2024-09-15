@@ -3,13 +3,15 @@ import { useState } from 'react'
 import { assets } from '../assets/assets'
 import '../style/Sidebar.css'
 
+
 const Sidebar = () => {
 
     const [Extended, setExtended] = useState(false)
     return (
         <div className="Sidebar">
             <div className="top">
-                <img onClick={() => setExtended(prev => !prev)} className='menu' src={assets.menu_icon} alt="" />
+            
+                <img onClick={() => setExtended(prev => !prev)} className='menu' src={assets.menu_icon} color='white' alt="" />
                 <div className="new_chat">
                     <img src={assets.plus_icon} alt="" />
                     {Extended ? <p>New chat</p> : null}
@@ -26,15 +28,15 @@ const Sidebar = () => {
             </div>
             <div className="bottom">
                 <div className="bottom_icon recent_entry">
-                    <img src={assets.question_icon} alt="" />
+                    <img src={assets.question_icon} color='white' alt="" />
                     {Extended ? <p>Help</p> : null}
                 </div>
                 <div className="bottom_icon recent_entry">
-                    <img src={assets.history_icon} alt="" />
+                    <img src={assets.history_icon} color='white' alt="" />
                     {Extended ? <p>Activity</p> : null}
                 </div>
                 <div className="bottom_icon recent_entry">
-                    <img src={assets.setting_icon} alt="" />
+                    <img src={assets.setting_icon} color='white' alt="" />
                     {Extended ? <p>Setting</p> : null}
                 </div>
             </div>

@@ -4,7 +4,7 @@ export default function Header() {
     return (
         
         <header className="shadow sticky z-50 top-0">
-            <nav className="bg-black border-gray-200 px-4 lg:px-6 py-2">
+            <nav className="bg-slate-900 border-gray-200 px-4 lg:px-6 py-2">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
                         <img
@@ -21,7 +21,7 @@ export default function Header() {
                         <ul className="  navbar flex flex-col  font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             
                             <li>
-                                <NavLink className=" About button inline-flex   text-white items-center px-6 py-3 font-medium bg-orange-700 focus:ring-orange-400 rounded-4xl hover:opacity-75"
+                                <NavLink className="text-white hover:bg-orange-600 focus:ring-4 focus:ring-orange-400 font-medium rounded-2xl text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
             
                                    to="/about"
                                     

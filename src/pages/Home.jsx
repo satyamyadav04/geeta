@@ -13,7 +13,7 @@ export default function Home() {
             </h2>
 
             <NavLink
-              className=" button inline-flex   text-white items-center px-6 py-3 font-extrabold bg-orange-700 focus:ring-yellow-400 rounded-4xl hover:opacity-75"
+              className=" button inline-flex   text-white items-center px-6 py-3 font-extrabold bg-gradient-to-r from-teal-400 to-orange-500 hover:from-pink-500 hover:to-orange-500 focus:ring-4 focus:ring-blue-400 rounded-4xl hover:opacity-75"
               to="/Bodyy"
             >
               <svg

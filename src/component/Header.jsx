@@ -13,15 +13,35 @@ export default function Header() {
                             alt="Logo"
                         />
                     </Link>
+
+                    <div
+                        className="hidden justify-between  w-full lg:flex lg:w-auto lg:order-1"
+                        id="mobile-menu-2"
+                    >
+                        <ul className=" fixed top-6  right-4 navbar flex flex-col  font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                            
+                            <li>
+                                <NavLink className="text-white bg-gradient-to-r from-teal-400 to-orange-500 hover:from-pink-500 hover:to-orange-500 focus:ring-4 focus:ring-blue-400 font-medium rounded-2xl text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+            
+                                   to="/Home"
+                                    
+                                >
+                                    Home
+                                </NavLink>
+                            </li>
+                           
+
+                        </ul>
+                    </div>
                    
                     <div
                         className="hidden justify-between  w-full lg:flex lg:w-auto lg:order-1"
                         id="mobile-menu-2"
                     >
-                        <ul className="  navbar flex flex-col  font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                        <ul className="   navbar flex flex-col  font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             
                             <li>
-                                <NavLink className="text-white hover:bg-orange-600 focus:ring-4 focus:ring-orange-400 font-medium rounded-2xl text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+                                <NavLink className="text-white bg-gradient-to-r from-teal-400 to-orange-500 hover:from-pink-500 hover:to-orange-500 focus:ring-4 focus:ring-blue-400 font-medium rounded-2xl text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
             
                                    to="/about"
                                     
@@ -33,6 +53,7 @@ export default function Header() {
 
                         </ul>
                     </div>
+                    
                 </div>
             </nav>
         </header>

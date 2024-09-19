@@ -16,7 +16,7 @@ export default function Home() {
               className=" button inline-flex   text-white items-center px-6 py-3 font-extrabold bg-gradient-to-r from-teal-400 to-orange-500 hover:from-pink-500 hover:to-orange-500 focus:ring-4 focus:ring-blue-400 rounded-4xl hover:opacity-75"
               to="/Bodyy"
             >
-              <svg
+              <svgs
                 fill="white"
                 width="24"
                 height="24"
@@ -25,7 +25,7 @@ export default function Home() {
                 clipRule="evenodd"
               >
                 <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" />
-              </svg>
+              </svgs>
               &nbsp; Let Start
             </NavLink>
           </div>
